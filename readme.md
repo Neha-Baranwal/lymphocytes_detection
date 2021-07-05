@@ -18,7 +18,7 @@ Following packages are required to perform the training
 Before running the code, make sure that the dataset is placed in the "blazar_test/patches_candidates" and the lable file is placed under "blazar_test/" folder.
 python Train.py
 
-The same way we can execute the prediction code. Before running the code, create "models/" folder and place model folder inside it.
+The same way we can execute the prediction code. Before running the code, create "models/" folder and place 20210704-163941 folder inside it.
 Prediction code takes one random sample from the positive class and one from the negative class and then try to predict the target class.
 python predict.py
 
